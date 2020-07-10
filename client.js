@@ -17,6 +17,7 @@ function init(bundle, parent, options = {}) {
   );
 
   // Load the initial environment
+  r360.compositor.setBackground(r360.getAssetURL('1-ringlikon.jpeg'));
 }
 
 window.React360 = {init};
